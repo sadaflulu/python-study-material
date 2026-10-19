@@ -1,0 +1,5 @@
+num1=int(input("enter the num 1"))
+print(num1<<1)
+print(num1<<2)
+print(num1>>1)
+print(num1>>2)
