@@ -12,7 +12,7 @@
 # name=["sadaf","lulu","fsamiss","binu"]
 # print(name.index("sadaf"))
 
-#enummarate
+#enumerate
 
 #we get  item and index
 # fruits = ["Apple", "Mango", "Orange"]
@@ -42,8 +42,8 @@
 
 #both index and item
 
-X = ["Red", "Green", "Blue"]
+# X = ["Red", "Green", "Blue"]
 
-for x in enumerate(X):
-    print(x)
+# for x in enumerate(X):
+#     print(x)
     
