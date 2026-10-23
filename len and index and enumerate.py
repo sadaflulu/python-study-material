@@ -19,7 +19,7 @@
 # for index, item in enumerate(fruits):
 #     print(item,index)
 
-#we only need emurate
+#we only need item
 
 # fruits = ["Apple", "Mango", "Orange"]
 # for item in fruits:
@@ -27,10 +27,10 @@
 
 
 
-#You can use _ to ignore the item:
-# fruits = ["Apple", "Mango", "Orange"]
-# for index, _ in enumerate(fruits):
-#     print(index)
+You can use _ to ignore the item:
+fruits = ["Apple", "Mango", "Orange"]
+for index, _ in enumerate(fruits):
+    print(index)
 
 
 

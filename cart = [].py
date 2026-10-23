@@ -17,21 +17,18 @@ while True:
         print(item, "added to cart successfully!")
 
     # 2. View cart
-    elif choice == "2":
+    elif choice=="2":
         if len(cart) == 0:
-            print("Your cart is empty.")
+            print("your cart is empty")
         else:
-            print("Your shopping cart:")
-
+            print("items in your cart:- ")
             for index, item in enumerate(cart):
-                print(index, ":", item)
-
-            print("First item:", cart[0])
-            print("Last item:", cart[-1])
-            print("First two items:", cart[:2])
+                print(index,item)
+        
+   
 
     # 3. Remove from cart
-        
+    
 
     # 4. Sort cart
     
